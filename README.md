@@ -1,87 +1,22 @@
-# Project Title
- 
-One Paragraph of project description goes here
+# Comp5347 Web Assignment 1(CSS+Pure JS)
  
 ## Getting Started
- 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
- 
-### Prerequisites
- 
-What things you need to install the software and how to install them
- 
-```
-Give examples
-```
- 
-### Installing
- 
-A step by step series of examples that tell you how to get a development env running
- 
-Say what the step will be
- 
-```
-Give the example
-```
- 
-And repeat
- 
-```
-until finished
-```
- 
-End with an example of getting some data out of the system or using it for a little demo
- 
-## Running the tests
- 
-Explain how to run the automated tests for this system
- 
-### Break down into end to end tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
-### And coding style tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
-## Deployment
- 
-Add additional notes about how to deploy this on a live system
- 
-## Built With
- 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
- 
-## Contributing
- 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
- 
-## Versioning
- 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
- 
-## Authors
- 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
- 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
- 
-## License
- 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
- 
-## Acknowledgments
- 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+
+Download the file and open index.css with a live server.
+
+## Functions
+
+The following functionalities must be implemented in your Web page:
+•	The main page should display the website name and the main information of each book including a thumbnail picture, title, author, year, star rating, price, publisher and category (see the enclosed Figures under Resources as an example). The star rating position can be located in either in-line with the title text or in a separate column of the page (e.g. "Ratings" column after the "Title" column). 
+•	The page must load the book items list from the provided json file (inside the start file set, see Resources section below). Details on how to read the json files is be described later in this assignment description. Copying the content of json file into your javascript file is not allowed. 
+•	End users can search books based on their title. The rows that match the search term will be highlighted with a coloured background of your choice. This search feature does not affect the list of shown items, only changing the background colour of the rows that match the search terms (can be word(s) or letter(s)). 
+•	End users should be able to filter books through their categories (only books with the selected category are shown in the list). The list of category works like a drop-down menu and should cover an extra category that is currently not in the bookstore for boundary test use. Meanwhile, end users should always have the option to return to the default status (display all books no matter which category they belong to).
+•	The Search and Filter functions should work together and combine the result of each other.
+•	End users should be able to select books and add them to the “Shopping Cart” through check boxes and a button “Add to cart”.  Users can only select one book at a time through checkbox (works similar to radio button but using check mark).
+•	A quantity input box will be prompted when the users select a book item and click "Add to cart" button. The page can either show a popup or a text-box asking about the quantity of the selected item. The book selection (checkbox) must be cleared/unchecked after the book(s) is added to cart, but the added book is not removed from the list.
+•	End users can clear the shopping cart through the “Reset the cart” button. Users should be prompted with a message box to confirm their desired action “Are you sure to reset the cart?”  then provide two options “OK” and “Cancel”.
+•	The “Shopping Cart” should always show the correct number of books in the cart based on the end user actions (note: based on the total quantity of added books).
+•	The page provides a toggle (at the top of the page) to enable "Dark Mode" where the themes of the page are changed to use grey colours or other dark colours. This dark mode will affect both the webpage background colour, texts, highlight colour and any other relevant colours. 
+
+
+
