@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="shortcut icon" href="#" />
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body id="background_mode">
+   <div id="web_title">
+      <h1>B2YBooks</h1>
+     
+   </div>
+
+   <form method="get" action="">
+      <div id="searchBox">
+         <input type="search" id="search" name="searchBox">
+         <input type="button" id="searchButton" value="search"></button>
+         <select id="select_id">
+            <option value="Art">Art</option>
+            <option value="Science History">Science History</option>
+            <option value="Action and Adventure">Action and Adventure</option>
+            <option value="Health">Health</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <option value="Game day everyday">Game day everyday</option>
+            <option value="All Categories">All Categories</option>
+         </select>
+
+         <input type="button" id="filterButton" value="Filter">
+         <input type="button" id="toggle" value="Toggle mode" >
+         <input type="button" id="add" value="Add to cart">
+         <input type="button" id="reset" value="Reset the cart">
+         <img id="shopping_cart" src="/images/shopping_cart.png" alt="cart">
+         (<p id="num_of_cart">0</p>)
+      </div>
+
+      <div id="listBox">
+         <div id="blueBox">
+
+         </div>
+         <table id="tableBody">
+            <thead>
+               <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTitle</th>
+               <th>Ratings</th>
+               <th>Authors</th>
+               <th>Year</th>
+               <th>Price</th>
+               <th>Publisher</th>
+               <th>Category</th>
+            </thead>
+      </div>
+   </form>
+</body>
+
+</html>
