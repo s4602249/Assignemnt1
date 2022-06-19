@@ -2,7 +2,12 @@
  
 ## Getting Started
 
-Download the file and open index.css with a live server.
+* Install Node.js on https://nodejs.org/en/download/
+
+* Download the project
+
+* Open your terminal (mac/linux) or command prompt (windows) and run this command: "npm install http-server -g" (put sudo before npm if you are mac/linux users). If http-server installation is complete, go to your project directory by using "cd" command and run command "http-server". It will provide you url(s) to access your project from your browser, you usually can access your project from this address: "http://127.0.0.1:8080".
+
 
 ## Requirement specification
 
